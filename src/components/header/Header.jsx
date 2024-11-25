@@ -43,12 +43,12 @@ const Header = () => {
                                 <HiOutlineClipboardList className="nav__icon"/>Services
                             </a>
                         </li>
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} 
                             className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
                                 <HiOutlinePhotograph className="nav__icon"/>Projects
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav__item">
                             <a href="#contact" onClick={() => setActiveNav("#contact")} 
                             className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
